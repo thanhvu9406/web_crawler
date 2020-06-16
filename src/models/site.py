@@ -23,4 +23,4 @@ class Gmarket(BaseSiteModel):
         Site to crawler object
     """
     _url = 'http://gpromotion.gmarket.co.kr/'
-    _sale_url = ''
+    _sale_follow_up_url = ['http://gcategory.gmarket.co.kr/Listview/Category?GdlcCd=100000005']
